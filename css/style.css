@@ -1,0 +1,140 @@
+* header {
+    background: var(--BACKGROUND, #000);
+    width: 100%;
+    height: 300px;
+    flex-shrink: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+
+body {
+    padding-top: 300px;
+}
+
+h1 {
+    color: var(--HEADER, #FFF);
+    text-align: center;
+    font-family: 'Bellefair', serif;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+h2 {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Bellefair', serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+h3 {
+    color: var(--BOX-HEADER, #3C4592);
+    text-align: center;
+    font-family: 'Bellefair', serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+h4 {
+    color: var(--TEXT, #5D64A6);
+    font-family: 'Bellefair', serif;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+main {
+    background: #000;
+    width: 100%;
+    height: 11640px;
+    flex-shrink: 0;
+}
+
+main img {
+    width: 100%;
+}
+
+.ContextBox {
+    background: var(--TEXT-BOX, #181038);
+    width: 100%;
+    height: 778px;
+    flex-shrink: 0;
+    padding: 45px;
+    box-sizing: border-box;
+    margin-bottom: 45px;
+    margin-top: 45px;
+}
+
+.ImportanceBox {
+    background: var(--TEXT-BOX, #181038);
+    width: 100%;
+    height: 778px;
+    flex-shrink: 0;
+    padding: 45px;
+    box-sizing: border-box;
+    margin-bottom: 45px;
+    margin-top: 45px;
+}
+
+.SymbolismBox {
+    background: var(--TEXT-BOX, #181038);
+    width: 100%;
+    height: 778px;
+    flex-shrink: 0;
+    padding: 45px;
+    box-sizing: border-box;
+    margin-bottom: 45px;
+    margin-top: 45px;
+}
+
+.ConcertBox {
+    background: var(--TEXT-BOX, #181038);
+    width: 100%;
+    height: 778px;
+    flex-shrink: 0;
+    padding: 45px;
+    box-sizing: border-box;
+    margin-bottom: 45px;
+    margin-top: 45px;
+}
+
+.PersonalBox {
+    background: var(--TEXT-BOX, #181038);
+    width: 100%;
+    height: 778px;
+    flex-shrink: 0;
+    padding: 45px;
+    box-sizing: border-box;
+    margin-bottom: 45px;
+    margin-top: 45px;
+}
+
+.FactsBox {
+    background: var(--TEXT-BOX, #181038);
+    width: 100%;
+    height: 778px;
+    flex-shrink: 0;
+    padding: 45px;
+    box-sizing: border-box;
+    margin-bottom: 45px;
+    margin-top: 45px;
+}
+
+.CitationBox {
+    background: var(--TEXT-BOX, #181038);
+    width: 100%;
+    height: 778px;
+    flex-shrink: 0;
+    padding: 45px;
+    box-sizing: border-box;
+    margin-bottom: 45px;
+}
