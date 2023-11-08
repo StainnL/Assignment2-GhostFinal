@@ -1,7 +1,7 @@
 * header {
     background: var(--BACKGROUND, #000);
     width: 100%;
-    height: 300px;
+    height: 230px;
     flex-shrink: 0;
     position: fixed;
     top: 0;
@@ -11,6 +11,7 @@
 
 body {
     padding-top: 300px;
+    background-color: #000;
 }
 
 h1 {
@@ -21,6 +22,7 @@ h1 {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin: 0.33em 0;
 }
 
 h2 {
@@ -31,6 +33,7 @@ h2 {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-top: -10px;
 }
 
 h3 {
@@ -46,7 +49,7 @@ h3 {
 h4 {
     color: var(--TEXT, #5D64A6);
     font-family: 'Bellefair', serif;
-    font-size: 27px;
+    font-size: 1.5vw;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -73,6 +76,9 @@ main img {
     margin-bottom: 45px;
     margin-top: 45px;
 }
+
+
+
 
 .ImportanceBox {
     background: var(--TEXT-BOX, #181038);
@@ -137,4 +143,100 @@ main img {
     padding: 45px;
     box-sizing: border-box;
     margin-bottom: 45px;
+}
+
+ 
+
+
+@media screen and (max-width: 600px) {
+    .header {
+        width: 100%;
+        padding: 10px;
+        height: 50px;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 5em; /* adjust as needed */
+        margin: 0.33em 0;
+    }
+
+    h2 {
+        font-size: 1.2em;
+        margin: 0.2em 0;
+    }
+
+    h3 {
+        font-size: 1em;
+        margin: 0.1em 0;
+    }
+
+    h4 {
+        font-size: 0.9em;
+        margin: 0.1em 0;
+       
+    }
+
+    main {
+        padding: 10px;
+    margin-top: 300px;
+    
+    }
+    
+    main img {
+        width: 100%;
+        height: auto;
+    }
+
+    .ContextBox {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .ImportanceBox {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .SymbolismBox {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .ConcertBox {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .PersonalBox {
+        width: 100%;
+        padding: 10px;
+    }
+    
+    .FactsBox {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .CitationBox {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .ContextBox, .ImportanceBox, .SymbolismBox, .ConcertBox, .PersonalBox, .FactsBox, .CitationBox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        margin: auto;
+    }
+    
+    
 }
