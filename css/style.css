@@ -145,7 +145,7 @@ main img {
     margin-bottom: 45px;
 }
 
- 
+
 
 
 @media screen and (max-width: 600px) {
@@ -163,7 +163,8 @@ main img {
     }
 
     h1 {
-        font-size: 5em; /* adjust as needed */
+        font-size: 5em;
+        /* adjust as needed */
         margin: 0.33em 0;
     }
 
@@ -180,15 +181,15 @@ main img {
     h4 {
         font-size: 0.9em;
         margin: 0.1em 0;
-       
+
     }
 
     main {
         padding: 10px;
-    margin-top: 300px;
-    
+        margin-top: 300px;
+
     }
-    
+
     main img {
         width: 100%;
         height: auto;
@@ -218,7 +219,7 @@ main img {
         width: 100%;
         padding: 10px;
     }
-    
+
     .FactsBox {
         width: 100%;
         padding: 10px;
@@ -229,7 +230,13 @@ main img {
         padding: 10px;
     }
 
-    .ContextBox, .ImportanceBox, .SymbolismBox, .ConcertBox, .PersonalBox, .FactsBox, .CitationBox {
+    .ContextBox,
+    .ImportanceBox,
+    .SymbolismBox,
+    .ConcertBox,
+    .PersonalBox,
+    .FactsBox,
+    .CitationBox {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -237,6 +244,6 @@ main img {
         flex-direction: column;
         margin: auto;
     }
-    
-    
+
+
 }
